@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <title>Index</title>
+
+  <link rel='stylesheet' type='text/css' href='mycss.css'>
+
+  <script type="text/javascript" src="myjs.js"></script>
+
+</head>
+
+<body>
+
+    <script>
+        
+        function GetSel()
+        
+        {
+            
+            //str = window.getSelection().toString();
+            var str = "ljj get web str";
+            ShowLabel(str);
+            
+            return str;
+            
+        }
+        
+        function CallApp()
+        
+        {
+            
+            //str = window.getSelection().toString();
+            var str = "ljj AppFunc ";
+            window.webkit.messageHandlers.AppFunc.postMessage(str);
+            
+        }
+        
+    </script>
+
+        <h1>Hello World!</h1>
+
+        <div>Hi This <span style="color:red">is a test</span> html.</div>
+
+        <div>My Label : <span id="MyLabel"></span></div>
+
+        <a href="#" onclick="ShowLabel('This is a Label.')">func ShowLabel()</a><br>
+
+        <a href="#" onclick="GetSel();">func GetSel()</a><br>
+
+        <a href="#" onclick="CallApp();">App Func()</a>
+
+</body>
+
+</html>

@@ -13,6 +13,8 @@
 		730C834427EAC7660038C6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C834227EAC7660038C6AA /* Main.storyboard */; };
 		730C834627EAC7670038C6AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730C834527EAC7670038C6AA /* Assets.xcassets */; };
 		730C834927EAC7670038C6AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730C834727EAC7670038C6AA /* LaunchScreen.storyboard */; };
+		730C835427EC0DE40038C6AA /* index.htm in Resources */ = {isa = PBXBuildFile; fileRef = 730C835227EC0DE40038C6AA /* index.htm */; };
+		730C835527EC0DE40038C6AA /* myjs.js in Resources */ = {isa = PBXBuildFile; fileRef = 730C835327EC0DE40038C6AA /* myjs.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		730C834527EAC7670038C6AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		730C834827EAC7670038C6AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		730C834A27EAC7670038C6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730C835227EC0DE40038C6AA /* index.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.htm; sourceTree = "<group>"; };
+		730C835327EC0DE40038C6AA /* myjs.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = myjs.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				730C834527EAC7670038C6AA /* Assets.xcassets */,
 				730C834727EAC7670038C6AA /* LaunchScreen.storyboard */,
 				730C834A27EAC7670038C6AA /* Info.plist */,
+				730C835227EC0DE40038C6AA /* index.htm */,
+				730C835327EC0DE40038C6AA /* myjs.js */,
 			);
 			path = a0323WebView;
 			sourceTree = "<group>";
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730C835527EC0DE40038C6AA /* myjs.js in Resources */,
+				730C835427EC0DE40038C6AA /* index.htm in Resources */,
 				730C834927EAC7670038C6AA /* LaunchScreen.storyboard in Resources */,
 				730C834627EAC7670038C6AA /* Assets.xcassets in Resources */,
 				730C834427EAC7660038C6AA /* Main.storyboard in Resources */,

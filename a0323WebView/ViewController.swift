@@ -73,6 +73,6 @@ class ViewController: UIViewController,WKUIDelegate,WKNavigationDelegate,WKScrip
             self.edEdit.text = result as! String
                 })
     }
-    
+     
 }
 
