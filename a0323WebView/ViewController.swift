@@ -58,7 +58,7 @@ class ViewController: UIViewController,WKUIDelegate,WKNavigationDelegate,WKScrip
         //URL: http://172.24.20.54:4201/
         
 //        webView.loadFileURL(URL(string: "file:///Users/ljjmacbook/Desktop/html/index.htm")!, allowingReadAccessTo: URL(string: "file:///Users/ljjmacbook/desktop/html")!)
-        
+        //改測試公司網頁
         guard let url = URL(string: "http://172.24.20.54:4201/") else {
             return
         }
