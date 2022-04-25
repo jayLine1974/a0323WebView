@@ -55,7 +55,15 @@ class ViewController: UIViewController,WKUIDelegate,WKNavigationDelegate,WKScrip
     // 載入網頁
     fileprivate func loadWebview() {
         //file:///Users/ljjmacbook/Desktop/html/index.htm
-        webView.loadFileURL(URL(string: "file:///Users/ljjmacbook/Desktop/html/index.htm")!, allowingReadAccessTo: URL(string: "file:///Users/ljjmacbook/desktop/html")!)
+        //URL: http://172.24.20.54:4201/
+        
+//        webView.loadFileURL(URL(string: "file:///Users/ljjmacbook/Desktop/html/index.htm")!, allowingReadAccessTo: URL(string: "file:///Users/ljjmacbook/desktop/html")!)
+        
+        guard let url = URL(string: "http://172.24.20.54:4201/") else {
+            return
+        }
+        webView.load(URLRequest(url: url))
+        
     }
     
     @IBAction func btSendWebPageTextClick(_ sender: UIButton) {
